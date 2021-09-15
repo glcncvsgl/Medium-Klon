@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link 
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Medium</title>
+    <link rel="stylesheet" href="css/medium.css" />
+   
   </head>
 
   <body>
@@ -43,11 +42,10 @@
                   <ul class="navbar-nav" style="justify-content: flex-end">
                     <li class="nav-item active">
                       <a class="nav-link" href="#"
-                        >Home<span class="sr-only">(current)</span></a
-                      >
+                        >Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Our story</a>
+                      <a class="nav-link" href="our-story.html">Our story</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Membership</a>
@@ -64,7 +62,7 @@
                         data-toggle="modal" data-target="#exampleModal"
                         >Get Started</a>
                         
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -74,11 +72,12 @@
                                 </button>
                               </div>
                               <div class="modal-body btn-group btn-group-vertical">
-                                <img class="rounded-circle" src="https://picsum.photos/id/20/25/25" alt="">
+                                <img class="rounded-circle" style="position:absolute; left:20px; top:20px;" src="https://picsum.photos/id/21/25/25" alt="">
+                                
                                   <button type="button" class="btn btn-outline-secondary">Sign up with Google</button>
-                                  <img class="rounded-circle" src="https://picsum.photos/id/21/25/25" alt="">
+                                  <img class="rounded-circle" style="position:absolute; left:20px; top:60px;" src="https://picsum.photos/id/22/25/25" alt="">
                                   <button type="button" class="btn btn-outline-secondary">Sign up with Facebook</button>
-                                  <img class="rounded-circle" src="https://picsum.photos/id/22/25/25" alt="">
+                                  <img class="rounded-circle" style="position:absolute; left:20px; top:100px;" src="https://picsum.photos/id/23/25/25" alt="">
                                   <button type="button" class="btn btn-outline-secondary">Sign up with email</button>
                               </div>
                               <div class="modal-footer">
@@ -101,13 +100,15 @@
           <div class="row">
             <div class="col-6">
               <h1 class="display-3">
-                Medium is a place to write, read, and connect
+                Medium is a place <br> to write, read, and connect
               </h1>
               <p>
                 It's easy and free to post your thinking on any topic and
                 connect with millions of readers.
               </p>
-              <a href="#" class="btn btn-outline-dark">Get Started</a>
+              <a class="text-dark" href=""><u>Learn More</u></a></p> 
+                  <a href="#" class="btn btn-outline-dark rounded-pill bg-white text-dark">Start Writing</a>
+              
             </div>
             <div class="col-6">
               <img
@@ -122,7 +123,7 @@
     </div>
     <div class="container">
       <div class="row mt-5">
-        <div class="col-12">
+        <div class="col-12 mb-2">
           <h6>
             <i class="fas fa-rocket"></i><small>TRENDING ON MEDIUM</small>
           </h6>
@@ -214,8 +215,7 @@
               <span class="small ml-1"
                 >MapTiler
                 <small class="text-muted">in</small>
-                MapTiler Blog</span
-              >
+                MapTiler Blog</span>
               <h6 class="mt-1">
                 MapLibre GL Native: open-source mobile SDK for Android and iOS
               </h6>
