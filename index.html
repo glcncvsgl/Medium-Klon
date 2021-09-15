@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link 
       href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
@@ -17,64 +17,81 @@
   </head>
 
   <body>
-   
     <div style="background-color: #ffc017; border-bottom: 1px solid #222222">
-      <div class="bg-yellow border-bottom-dark py-1 ">
+      <div class="bg-yellow border-bottom-dark py-1">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="#">
-            <strong> 
-              Medium
-            </strong>  
-              
-              
+              <strong> Medium </strong>
             </a>
             <div class="col-4">
-            <button
-            
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#ac-kapa"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#ac-kapa"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
             <div class="collapse navbar-collapse" id="ac-kapa">
               <div class="container">
                 <div class="row">
-                <ul class="navbar-nav" style="
-                justify-content: flex-end"
-                >
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#"
-                      >Home<span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Our story</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Membership</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Write</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sign in</a>
-                  </li>
-                  <li class="nav-item ml-5">
-                    <a class="nav-link btn btn-dark text-light" href="get-start.html"
-                    
-                      >Get Started</a
-                    >
-                  </li>
-                </ul>
+                  <ul class="navbar-nav" style="justify-content: flex-end">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"
+                        >Home<span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Our story</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Write</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item ml-5">
+                      <a
+                        class="nav-link btn btn-dark text-light"
+                        data-toggle="modal" data-target="#exampleModal"
+                        >Get Started</a>
+                        
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Join Medium</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body btn-group btn-group-vertical">
+                                <img class="rounded-circle" src="https://picsum.photos/id/20/25/25" alt="">
+                                  <button type="button" class="btn btn-outline-secondary">Sign up with Google</button>
+                                  <img class="rounded-circle" src="https://picsum.photos/id/21/25/25" alt="">
+                                  <button type="button" class="btn btn-outline-secondary">Sign up with Facebook</button>
+                                  <img class="rounded-circle" src="https://picsum.photos/id/22/25/25" alt="">
+                                  <button type="button" class="btn btn-outline-secondary">Sign up with email</button>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Already have an account? Sign in</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
             </div>
           </nav>
         </div>
@@ -106,183 +123,203 @@
     <div class="container">
       <div class="row mt-5">
         <div class="col-12">
-             <h6><i class="fas fa-rocket"></i><small>TRENDING ON MEDIUM</small></h6>
-          </div>
+          <h6>
+            <i class="fas fa-rocket"></i><small>TRENDING ON MEDIUM</small>
+          </h6>
+        </div>
         <article class="col-sm-4 mb-2">
-               
           <div class="row">
-                 <div class="col-1">
-                  <h6 class="text-black-50">01</h6>
-             </div>
-                  
-                 
-                <div class="col-11">
-                 <img class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
-                 <span class="small ml-1">SundaeSwap Labs</span>
-                 <h6 class="mt-1">Concurrency, State, & Cardano.</h6>
-                 
-                 <ul class="list-inline small">
-                  <li class="list-inline-item">Sep 5</li>
-                  <li class="list-inline-item"> 11 min read</li>
-                  <li class="list-inline-item"><i class="far fa-star"></i></li>
-                </ul>
-      
-                </div>
-                </div>
-        </article>
-        <article class="col-sm-4 mb-2">
-               
-          <div class="row">
-                 <div class="col-1">
-                  <h6 class="text-black-50">02</h6>
-             </div>
-                  
-                 
-                <div class="col-11">
-                 <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
-                 <span class="small ml-1">Fredrick Brennan</span>
-                 <h6 class="mt-1">“Emojibake” are considered harmful</h6>
-                 
-                 <ul class="list-inline small">
-                  <li class="list-inline-item">Sep 5</li>
-                  <li class="list-inline-item">2 min read</li>
-                  <li class="list-inline-item"><i class="far fa-star"></i></li>
-                </ul>
-      
-                </div>
-                </div>
-        </article>
-        <article class="col-sm-4 mb-2">
-               
-          <div class="row">
-                 <div class="col-1">
-                  <h6 class="text-black-50">03</h6>
-             </div>
-                  
-                 
-                <div class="col-11">
-                 <img class="rounded-circle" src="https://picsum.photos/id/13/25/25" alt="">
-                 <span class="small ml-1">"Katie Jgln in The Virago"</span>
-                 <h6 class="mt-1">It’s No Wonder Men Objectify Us When Our Bodies Are Asking for It</h6>
-                 
-                 <ul class="list-inline small">
-                  <li class="list-inline-item">Sep 5</li>
-                  <li class="list-inline-item"> 11 min read</li>
-                  <li class="list-inline-item"><i class="far fa-star"></i></li>
-                </ul>
-      
-                </div>
-                </div>
-        </article>
-        <article class="col-sm-4">
-               
-          <div class="row">
-                 <div class="col-1">
-                  <h6 class="text-black-50">04</h6>
-             </div>
-                  
-                 
-                <div class="col-11">
-                 <img class="rounded-circle" src="https://picsum.photos/id/14/25/25" alt="">
-                 <span class="small ml-1">MapTiler 
-                   <small class="text-muted">in</small> 
-                   MapTiler Blog</span>
-                 <h6 class="mt-1">MapLibre GL Native: open-source mobile SDK for Android and iOS</h6>
-                 
-                 <ul class="list-inline small">
-                  <li class="list-inline-item">Aug 31</li>
-                  <li class="list-inline-item"> 5 min read</li>
-                  <li class="list-inline-item"><i class="far fa-star"></i></li>
-                </ul>
-      
-                </div>
-                </div>
-        </article>
-        <article class="col-sm-4">
-               
-          <div class="row">
-                 <div class="col-1">
-                  <h6 class="text-black-50">05</h6>
-             </div>
-                  
-                 
-                <div class="col-11">
-                 <img class="rounded-circle" src="https://picsum.photos/id/15/25/25" alt="">
-                 <span class="small ml-1">
-                  Daniel Ganninger
-                  in
-                  Knowledge Stew</span>
-                 <h6 class="mt-1">Why Is There a Tiny Pocket Above the Front Pocket on Jeans?</h6>
-                 
-                 <ul class="list-inline small">
-                  <li class="list-inline-item">Sep 5</li>
-                  <li class="list-inline-item">3 min read</li>
-                  <li class="list-inline-item"><i class="far fa-star"></i></li>
-                </ul>
-      
-                </div>
-                </div>
-        </article>
-        <article class="col-sm-4">
-               
-          <div class="row">
-                 <div class="col-1">
-                  <h6 class="text-black-50">06</h6>
-             </div>
-                  
-                 
-                <div class="col-11">
-                 <img class="rounded-circle" src="https://picsum.photos/id/16/25/25" alt="">
-                 <span class="small ml-1">MartinEdic</span>
-                 <h6 class="mt-1">The Republicans Are Panicked About the Texas Anti-abortion Law</h6>
-                 
-                 <ul class="list-inline small">
-                  <li class="list-inline-item">Sep 5</li>
-                  <li class="list-inline-item">2 min read</li>
-                  <li class="list-inline-item"><i class="far fa-star"></i></li>
-                </ul>
-      
-                </div>
-                </div>
-        </article>
+            <div class="col-1">
+              <h6 class="text-black-50">01</h6>
+            </div>
 
+            <div class="col-11">
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/11/25/25"
+                alt=""
+              />
+              <span class="small ml-1">SundaeSwap Labs</span>
+              <h6 class="mt-1">Concurrency, State, & Cardano.</h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 5</li>
+                <li class="list-inline-item">11 min read</li>
+                <li class="list-inline-item"><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">02</h6>
+            </div>
+
+            <div class="col-11">
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/12/25/25"
+                alt=""
+              />
+              <span class="small ml-1">Fredrick Brennan</span>
+              <h6 class="mt-1">“Emojibake” are considered harmful</h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 5</li>
+                <li class="list-inline-item">2 min read</li>
+                <li class="list-inline-item"><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">03</h6>
+            </div>
+
+            <div class="col-11">
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/13/25/25"
+                alt=""
+              />
+              <span class="small ml-1">"Katie Jgln in The Virago"</span>
+              <h6 class="mt-1">
+                It’s No Wonder Men Objectify Us When Our Bodies Are Asking for
+                It
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 5</li>
+                <li class="list-inline-item">11 min read</li>
+                <li class="list-inline-item"><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">04</h6>
+            </div>
+
+            <div class="col-11">
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/14/25/25"
+                alt=""
+              />
+              <span class="small ml-1"
+                >MapTiler
+                <small class="text-muted">in</small>
+                MapTiler Blog</span
+              >
+              <h6 class="mt-1">
+                MapLibre GL Native: open-source mobile SDK for Android and iOS
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Aug 31</li>
+                <li class="list-inline-item">5 min read</li>
+                <li class="list-inline-item"><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">05</h6>
+            </div>
+
+            <div class="col-11">
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/15/25/25"
+                alt=""
+              />
+              <span class="small ml-1">
+                Daniel Ganninger in Knowledge Stew</span
+              >
+              <h6 class="mt-1">
+                Why Is There a Tiny Pocket Above the Front Pocket on Jeans?
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 5</li>
+                <li class="list-inline-item">3 min read</li>
+                <li class="list-inline-item"><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">06</h6>
+            </div>
+
+            <div class="col-11">
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/16/25/25"
+                alt=""
+              />
+              <span class="small ml-1">MartinEdic</span>
+              <h6 class="mt-1">
+                The Republicans Are Panicked About the Texas Anti-abortion Law
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 5</li>
+                <li class="list-inline-item">2 min read</li>
+                <li class="list-inline-item"><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </article>
       </div>
-      
-    </div> <!---container - end -->
+    </div>
+    <!---container - end -->
     <div class="border-top-dark mt-5">
       <div class="container">
-        <div class="row mt-5 ">
+        <div class="row mt-5">
           <section class="col-sm-8">
             <article class="row">
               <div class="col-8">
-                <img class="rounded-circle" src="https://picsum.photos/id/17/25/25" alt="">
-                   <span class="small ml-1">Hamish Ogilvy</span>
-                   <h6 class="mt-1">
-                     <strong>
-                      Vectors are over, hashes are the future of AI
-                     </strong>
-                   </h6>
-                   <p>
-                    Artificial intelligence has been built on the back of vector arithmetic. Recent advances show for certain AI applications...
-                   </p>
-                   <ul class="list-inline small">
-                    <li class="list-inline-item">Jun 5</li>
-                    <li class="list-inline-item">8 min read</li>
-                    <li class="list-inline-item"><i class="far fa-star"></i></li>
-                  </ul>
+                <img
+                  class="rounded-circle"
+                  src="https://picsum.photos/id/17/25/25"
+                  alt=""
+                />
+                <span class="small ml-1">Hamish Ogilvy</span>
+                <h6 class="mt-1">
+                  <strong>
+                    Vectors are over, hashes are the future of AI
+                  </strong>
+                </h6>
+                <p>
+                  Artificial intelligence has been built on the back of vector
+                  arithmetic. Recent advances show for certain AI
+                  applications...
+                </p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Jun 5</li>
+                  <li class="list-inline-item">8 min read</li>
+                  <li class="list-inline-item"><i class="far fa-star"></i></li>
+                </ul>
               </div>
               <div class="col-4">
-                <img src="https://picsum.photos/120/130" alt="" class="w100">
+                <img src="https://picsum.photos/120/130" alt="" class="w100" />
               </div>
             </article>
-  
           </section>
           <aside class="col-sm-4">
             <h6>
               <small>
-                <strong>
-                  DISCOVER MORE OF WHAT MATTERS TO YOU
-                </strong>
+                <strong> DISCOVER MORE OF WHAT MATTERS TO YOU </strong>
               </small>
             </h6>
             <ul class="list-inline">
@@ -290,22 +327,34 @@
                 <a href="" class="btn btn-sm btn-outline-secondary">Self</a>
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-sm btn-outline-secondary">Relationships</a>
+                <a href="" class="btn btn-sm btn-outline-secondary"
+                  >Relationships</a
+                >
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-sm btn-outline-secondary">Data Sience</a>
+                <a href="" class="btn btn-sm btn-outline-secondary"
+                  >Data Sience</a
+                >
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-sm btn-outline-secondary">Programming</a>
+                <a href="" class="btn btn-sm btn-outline-secondary"
+                  >Programming</a
+                >
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-sm btn-outline-secondary">Productivity</a>
+                <a href="" class="btn btn-sm btn-outline-secondary"
+                  >Productivity</a
+                >
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-sm btn-outline-secondary">Javascript</a>
+                <a href="" class="btn btn-sm btn-outline-secondary"
+                  >Javascript</a
+                >
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-sm btn-outline-secondary">Machine Learning</a>
+                <a href="" class="btn btn-sm btn-outline-secondary"
+                  >Machine Learning</a
+                >
               </li>
               <li class="list-inline-item">
                 <a href="" class="btn btn-sm btn-outline-secondary">Politics</a>
@@ -313,16 +362,13 @@
               <li class="list-inline-item">
                 <a href="" class="btn btn-sm btn-outline-secondary">Health</a>
               </li>
-            
             </ul>
           </aside>
-  
         </div>
       </div>
     </div>
-
-     <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
 </html>
-

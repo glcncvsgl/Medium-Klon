@@ -21,5 +21,7 @@ body{
 .list-inline li {
     margin-bottom: 5px !important;
 }
-
+.body-modal {
+    text-align: center;
+}
 
