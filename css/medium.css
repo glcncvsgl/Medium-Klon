@@ -24,11 +24,9 @@ body{
 .body-modal {
     text-align: center;
 }
-.vr {
-    border-left: 2px solid black;
-    height: 1000px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 200;
+    line-height: 4;
+    text-align:center;
   }
